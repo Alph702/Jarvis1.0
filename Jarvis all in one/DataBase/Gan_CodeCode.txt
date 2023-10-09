@@ -1,0 +1,44 @@
+Here is a Python code to open YouTube:
+
+```python
+import webbrowser
+
+# Open YouTube in the default web browser
+def open_youtube():
+  webbrowser.open("https://www.youtube.com/")
+
+# Call the open_youtube() function
+open_youtube()
+
+
+This code will open YouTube in the default web browser on your computer. You can also modify the code to open YouTube in a specific browser or in a new tab.
+
+Here is an example of how to open YouTube in a new tab:
+
+```python
+import webbrowser
+
+# Open YouTube in a new tab
+def open_youtube_in_new_tab():
+  webbrowser.open("https://www.youtube.com/", new=1)
+
+# Call the open_youtube_in_new_tab() function
+open_youtube_in_new_tab()
+```
+
+You can also use the `webbrowser` module to open a specific YouTube video. To do this, simply pass the URL of the video to the `webbrowser.open()` function.
+
+For example, the following code will open the YouTube video with the ID `dQw4w9WgXcQ`:
+
+```python
+import webbrowser
+
+# Open the YouTube video with the ID "dQw4w9WgXcQ"
+def open_youtube_video(video_id):
+  webbrowser.open("https://www.youtube.com/watch?v={}".format(video_id))
+
+# Call the open_youtube_video() function
+open_youtube_video("dQw4w9WgXcQ")
+```
+
+I hope this helps! Let me know if you have any other questions.
